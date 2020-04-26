@@ -41,6 +41,11 @@ body {
   margin: auto;
 }
 
+.add, #clear {
+    display: flex;
+    margin: auto;
+}
+
 #button, #clear {
   width: 130px;
   height: 40px;
@@ -53,8 +58,6 @@ body {
 }
 
 #clear {
-  display: flex;
-  margin: auto;
   padding-left: 20px;
   margin-top: 50px;
 }
@@ -97,8 +100,4 @@ body {
   font-size: 16px;
   margin-top: 70px;
   text-align: center; 
-}
-
-input[type="checkbox"]:checked + out {
-    text-decoration: line-through;
 }
