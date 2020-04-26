@@ -57,6 +57,10 @@ body {
   color: #323131;
 }
 
+#button {
+    padding-right: 10px;
+}
+
 #clear {
   padding-left: 20px;
   margin-top: 50px;
