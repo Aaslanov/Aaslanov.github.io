@@ -15,6 +15,7 @@ window.onload = function() {
         console.log(todoList);
         out();
         localStorage.setItem('todo', JSON.stringify(todoList) );
+        document.getElementById("addtothelist").value = "";
     }
     
     function out() {
