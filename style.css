@@ -36,6 +36,7 @@ body {
 }
 
 .logo {
+  font-family: 'Righteous';  
   font-weight: bold;
   font-size: 50px;
   margin: auto;
@@ -54,11 +55,13 @@ body {
   font-size: 20px;
   cursor: pointer;
   transition: opacity 0.2s;
-  color: #323131;
+  color: white;
+  background-color: #323131;    
 }
 
 #button {
     padding-right: 10px;
+    margin-left: 5px;
 }
 
 #clear {
@@ -95,6 +98,9 @@ body {
  //* margin-left: 50px; *//    
 }
 
+.cursor {
+   opacity: 0.7; 
+}
 #out {
     font-size: 18px;
     border: 1px solid white;
